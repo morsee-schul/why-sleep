@@ -1,0 +1,55 @@
+@import 'global';
+
+@media screen and (max-width: 25rem) {
+	.content {
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+		height: 100vh;
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+		ul {
+            padding-top: 2rem;
+			li {
+				text-align: left;
+				background-color: #00000000;
+				border: none;
+                font-size: 1.125rem;
+                letter-spacing: 12.5%;
+                line-height: 170%;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 25rem) {
+    .content {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        ul {
+            padding-top: 2rem;
+            li {
+                text-align: left;
+                background-color: #00000000;
+                border: none;
+                font-size: 1.5rem;
+                letter-spacing: 12.5%;
+                line-height: 170%;
+            }
+        }
+    }
+}

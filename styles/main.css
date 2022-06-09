@@ -1,0 +1,54 @@
+@media screen and (max-width: 400px) {
+  body {
+    font-family: Oxygen;
+  }
+  .bg {
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -100;
+  }
+  .bg .nonblurbg {
+    width: inherit;
+    height: inherit;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    -webkit-filter: blur(7px);
+            filter: blur(7px);
+  }
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: #faa916;
+    height: 100vh;
+  }
+  .content ul li {
+    text-align: left;
+    background-color: #00000000;
+    border: none;
+  }
+  h1 {
+    color: #faa916;
+  }
+}
+/*# sourceMappingURL=main.css.map */

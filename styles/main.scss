@@ -1,0 +1,59 @@
+@media screen and (max-width: 400px) {
+	body {
+		font-family: Oxygen;
+	}
+
+	.bg {
+		// bg
+		background-image: url("../images/bg.png");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+
+		// size
+		width: 100vw;
+		height: 100vh;
+
+		// positon
+		position: absolute;
+		z-index: -100;
+
+		.nonblurbg {
+			// size
+			width: inherit;
+			height: inherit;
+
+			// image settings
+			background-image: url("../images/bg.png");
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: center;
+
+			// blur
+			filter: blur(7px);
+		}
+	}
+
+	.content {
+		display: flex;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		flex-direction: column;
+		color: #faa916;
+		height: 100vh;
+		ul {
+			li {
+				text-align: left;
+				background-color: #00000000;
+				border: none;
+			}
+		}
+	}
+
+	h1 {
+		color: #faa916;
+	}
+}
